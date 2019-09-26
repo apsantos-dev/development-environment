@@ -81,11 +81,7 @@ _[Details on this link!](https://firebase.google.com/docs)_
 **_Install_**:
 
 ```sh
-sudo dnf install https://dl.folkswithhats.org/fedora/$(rpm -E %fedora)/RPMS/fedy-release.rpm
-
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-
-sudo dnf install fedy
+sudo npm install -g firebase-tools
 ```
 
 **_Open_**:
